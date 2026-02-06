@@ -10,7 +10,7 @@ def main_menu():
             [InlineKeyboardButton("📚 Index", callback_data="index")],
             [
                 InlineKeyboardButton("ℹ️ About", callback_data="about"),
-                InlineKeyboardButton("📝 Request", url="https://t.me/YOUR_GROUP_OR_BOT")
+                InlineKeyboardButton("📝 Request", url="https://t.me/OTC_BEN_BOT")
             ],
             [InlineKeyboardButton("⚠️ Important", callback_data="important")]
         ]
