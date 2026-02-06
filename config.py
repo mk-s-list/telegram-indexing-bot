@@ -1,9 +1,11 @@
-API_ID = 123456
-API_HASH = "your_api_hash"
-BOT_TOKEN = "your_bot_token"
+import os
 
-MONGO_URI = "your_mongodb_url"
+API_ID = int(os.getenv("API_ID"))
+API_HASH = os.getenv("API_HASH")
+BOT_TOKEN = os.getenv("BOT_TOKEN")
+
+MONGO_URI = os.getenv("MONGO_URI")
+FILE_CHANNEL = int(os.getenv("FILE_CHANNEL"))
+ADMIN_ID = int(os.getenv("ADMIN_ID"))
+
 DB_NAME = "IndexBot"
-
-FILE_CHANNEL = -100xxxxxxxxx
-ADMIN_ID = 123456789
